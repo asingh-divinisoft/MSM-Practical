@@ -1,0 +1,1889 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"mat_multi_square_column"
+			],
+			[
+				"in",
+				"inc\t#include \"‚Ä¶\""
+			],
+			[
+				"max",
+				"maxNodes"
+			],
+			[
+				"get",
+				"getMax"
+			],
+			[
+				"n",
+				"nextNode"
+			],
+			[
+				"s2s",
+				"s2s_colors"
+			],
+			[
+				"re",
+				"recon"
+			],
+			[
+				"weg",
+				"weight_layers"
+			],
+			[
+				"num",
+				"num_weights"
+			],
+			[
+				"vg_",
+				"vg_seen_classes_dict"
+			],
+			[
+				"glo",
+				"glove_path"
+			],
+			[
+				"loa",
+				"load_glove_model"
+			],
+			[
+				"vg",
+				"vg_seen_classes"
+			],
+			[
+				"sorte",
+				"sorted_classes"
+			],
+			[
+				"sor",
+				"sorted_classes"
+			],
+			[
+				"valid",
+				"valid_lr_imgs"
+			],
+			[
+				"valid_l",
+				"valid_lr_img"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"ge",
+				"getHeight"
+			],
+			[
+				"se",
+				"setName"
+			],
+			[
+				"set",
+				"setHeight"
+			],
+			[
+				"rand",
+				"randNum"
+			],
+			[
+				"load",
+				"load_model"
+			],
+			[
+				"y_",
+				"y_pred"
+			],
+			[
+				"che",
+				"checkpoint_path"
+			],
+			[
+				"sc",
+				"score_labels"
+			],
+			[
+				"la",
+				"label2"
+			],
+			[
+				"co",
+				"config"
+			],
+			[
+				"ac",
+				"act_anss"
+			],
+			[
+				"s",
+				"submit_buttun"
+			],
+			[
+				"en",
+				"entry1"
+			],
+			[
+				"te",
+				"text1"
+			],
+			[
+				"e",
+				"entry1"
+			],
+			[
+				"p",
+				"prob_row_gen"
+			],
+			[
+				"ra",
+				"randint"
+			],
+			[
+				"l",
+				"label_gen"
+			],
+			[
+				"ph",
+				"phrase_display"
+			],
+			[
+				"phr",
+				"phrase_generator"
+			],
+			[
+				"pl",
+				"player"
+			],
+			[
+				"ba",
+				"background_rect"
+			],
+			[
+				"sp",
+				"spritecollide"
+			],
+			[
+				"bu",
+				"bullet"
+			],
+			[
+				"ke",
+				"keystat"
+			],
+			[
+				"y",
+				"y_speed"
+			],
+			[
+				"img",
+				"img_folder"
+			],
+			[
+				"th",
+				"thing_starty"
+			],
+			[
+				"thin",
+				"thing_startx"
+			],
+			[
+				"thing_st",
+				"thing_starty"
+			],
+			[
+				"thi",
+				"thing_h"
+			],
+			[
+				"dis",
+				"display_height"
+			],
+			[
+				"thing_",
+				"thing_starty"
+			],
+			[
+				"di",
+				"display_width"
+			],
+			[
+				"textS",
+				"textSurface"
+			],
+			[
+				"Te",
+				"TextRect"
+			],
+			[
+				"K_",
+				"K_RIGHT"
+			],
+			[
+				"K",
+				"K_LEFT"
+			],
+			[
+				"car",
+				"carImg"
+			],
+			[
+				"train",
+				"train_loader"
+			],
+			[
+				"from",
+				"from_numpy"
+			],
+			[
+				"fr",
+				"from_numpy"
+			],
+			[
+				"R",
+				"Ret"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"wa",
+				"wager"
+			],
+			[
+				"fig",
+				"figure"
+			],
+			[
+				"wag",
+				"wager_system"
+			],
+			[
+				"bro",
+				"broke"
+			],
+			[
+				"cl",
+				"colour"
+			],
+			[
+				"his",
+				"hist_red"
+			],
+			[
+				"hist",
+				"hist_blue"
+			],
+			[
+				"hi",
+				"hist_red"
+			],
+			[
+				"wager",
+				"wagerSize"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"w",
+				"wager"
+			],
+			[
+				"sa",
+				"sample_size"
+			],
+			[
+				"dA",
+				"dAlembert_busts"
+			],
+			[
+				"m",
+				"multiple_profits"
+			],
+			[
+				"mi",
+				"multiple_profits"
+			],
+			[
+				"lo",
+				"lower_bust"
+			],
+			[
+				"mul",
+				"multiple_bettor"
+			],
+			[
+				"do",
+				"doubler_profits"
+			],
+			[
+				"si",
+				"simple_profits"
+			],
+			[
+				"sim",
+				"simple_busts"
+			],
+			[
+				"d",
+				"doubler_profits"
+			],
+			[
+				"dou",
+				"doubler_busts"
+			],
+			[
+				"brok",
+				"broke_count"
+			],
+			[
+				"b",
+				"broke"
+			],
+			[
+				"x",
+				"wX"
+			],
+			[
+				"c",
+				"current_wager"
+			],
+			[
+				"pre",
+				"previous_wager"
+			],
+			[
+				"roll",
+				"rollDice"
+			],
+			[
+				"Da",
+				"DataLoader"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"zer",
+				"zero_present"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"is",
+				"isprime"
+			],
+			[
+				"fib",
+				"fib_list"
+			],
+			[
+				"f",
+				"fibonacci"
+			],
+			[
+				"tu",
+				"turns3"
+			],
+			[
+				"t",
+				"turnfor_3rdframes"
+			],
+			[
+				"turnf",
+				"turnfor_3rdframes"
+			],
+			[
+				"turnfor",
+				"turnfor_1stframes"
+			],
+			[
+				"batch_of",
+				"batch_of_1st_frames"
+			],
+			[
+				"bar",
+				"batch_of_1st_frames"
+			],
+			[
+				"exp",
+				"expand_output_shape"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"fra",
+				"frame_3"
+			],
+			[
+				"fe",
+				"feat3"
+			],
+			[
+				"fea",
+				"feat2"
+			],
+			[
+				"feat",
+				"feat1"
+			],
+			[
+				"frame",
+				"frame_1"
+			],
+			[
+				"__",
+				"__init__"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gauss_elimination.h",
+			"settings":
+			{
+				"buffer_size": 2804,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ADI2.c",
+			"settings":
+			{
+				"buffer_size": 991,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ADI2.h",
+			"settings":
+			{
+				"buffer_size": 4306,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ADI.h",
+			"settings":
+			{
+				"buffer_size": 3496,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ADI.c",
+			"settings":
+			{
+				"buffer_size": 887,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#include<stdio.h>"
+			}
+		},
+		{
+			"file": "io.h",
+			"settings":
+			{
+				"buffer_size": 1296,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ADI_input.txt",
+			"settings":
+			{
+				"buffer_size": 50,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ADI_output.txt",
+			"settings":
+			{
+				"buffer_size": 2792,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Repl.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/C.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 132.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"exit()",
+			"restart",
+			"stop",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler( {\"http\":\"http://072.81400029:WE5018HL@10.1.1.44:80\"} )) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler( {\"http\":\"http://[072.81400029]:[WE5018HL]@[10.1.1.44]:[80]\"} )) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/aaditya/Documents/c/ADI"
+	],
+	"file_history":
+	[
+		"/home/aaditya/Documents/c/hac.c",
+		"/home/aaditya/Documents/c/parabolic/parabolic.c",
+		"/home/aaditya/Documents/c/parabolic/parabolic.h",
+		"/home/aaditya/Documents/c/parabolic/parabolic_input.txt",
+		"/home/aaditya/Documents/c/parabolic/io.h",
+		"/home/aaditya/Documents/c/parabolic/parabolic_output.txt",
+		"/home/aaditya/Documents/c/parabolic/ÄJùıCV#h_{Œ°∑ã—g",
+		"/home/aaditya/Documents/c/parabolic/gauss_elimination.h",
+		"/home/aaditya/Documents/c/parabolic/guass_elimination.h",
+		"/home/aaditya/Documents/ds_algo/BinaryTreeDS/Node.py",
+		"/home/aaditya/Documents/ds_algo/BinaryTreeDS/abc.py",
+		"/home/aaditya/Documents/ds_algo/LinkedListDS/App.py",
+		"/home/aaditya/Documents/ds_algo/LinkedListDS/Node.py",
+		"/home/aaditya/Documents/ds_algo/LinkedListDS/LinkedList.py",
+		"/home/aaditya/Documents/ds_algo/Node.py",
+		"/home/aaditya/Documents/c/cpp_rev2.cpp",
+		"/home/aaditya/Documents/c/cpp_rev.cpp",
+		"/home/aaditya/Documents/c/for_auto.cpp",
+		"/home/aaditya/Documents/c/linked_list.cpp",
+		"/home/aaditya/Documents/pytest2/project/threadin.py",
+		"/home/aaditya/zom.py",
+		"/home/aaditya/test_cv.py",
+		"/home/aaditya/Documents/pytest2/project/app.py",
+		"/home/aaditya/Documents/pytest2/project/main.py",
+		"/home/aaditya/Documents/pytest2/app2.py",
+		"/home/aaditya/Documents/pytest2/myflappybird/game_settings.py",
+		"/home/aaditya/Documents/pytest2/myflappybird/flappy.py",
+		"/home/aaditya/Documents/pytest2/newgame.py",
+		"/home/aaditya/Documents/pytest2/game.py",
+		"/home/aaditya/Documents/pytest2/abacus/term_book_win.py",
+		"/home/aaditya/Documents/pytest2/abacus/term_book_win2.py",
+		"/home/aaditya/Documents/pytest2/app1.py",
+		"/home/aaditya/Documents/pytest2/sprite_example.py",
+		"/home/aaditya/Documents/pytut/prob.py",
+		"/home/aaditya/Documents/ml_summer18/zero-shot/try.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py",
+		"/home/aaditya/Documents/ml_summer18/zero-shot/latem.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/losses.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/layers/convolutional.py",
+		"/home/aaditya/Documents/ml_summer18/zero-shot/box_utils.py",
+		"/home/aaditya/Documents/ml_summer18/zero-shot/emb_process.py",
+		"/home/aaditya/Documents/ml_summer18/zero-shot/3d_embedding_plots.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/activations.py",
+		"/run/user/1000/gvfs/sftp:host=10.2.60.11,user=16145007/home/met/ug/16145007/ML/Zero-Shot-Object-Detection-Segmentation/train.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/regularizers.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/engine/topology.py",
+		"/run/user/1000/gvfs/sftp:host=10.2.60.11,user=16145007/home/met/ug/16145007/ML/Zero-Shot-Object-Detection-Segmentation/zsd_model.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/inception_resnet_v2.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/vgg16.py",
+		"/home/aaditya/Documents/ceaser_cipher.cpp",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/layers/embeddings.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/layers/core.py",
+		"/home/aaditya/Documents/ml_summer18/Myntra/bcolz_array_iterator.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/vis/visualization/saliency.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/optimizers.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/engine/__init__.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/layers/local.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/layers/wrappers.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/layers/__init__.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/imagenet_utils.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/xception.py",
+		"/home/aaditya/Downloads/tensorflow-inceptionV4-2.1/evaluate_image.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/utils/test_utils.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/__init__.py",
+		"/home/aaditya/Documents/ml_summer18/saliency/inception_v4.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/vis/utils/utils.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/vis/backend/tensorflow_backend.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/vis/backprop_modifiers.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/resnet50.py",
+		"/home/aaditya/Documents/ml_summer18/dcscn-super-resolution-master/sr.py",
+		"/home/aaditya/Downloads/densenet_keras/DenseNet-master/imagenet_inference.py",
+		"/home/aaditya/Downloads/densenet_keras/DenseNet-master/densenet_fast.py",
+		"/home/aaditya/Downloads/densenet_keras/DenseNet-master/densenet.py",
+		"/home/aaditya/Downloads/keras-inceptionV4-2.1/evaluate_image.py",
+		"/home/aaditya/Documents/ml_summer18/mnist_yolo/generate_train_txt_and_test_txt.py",
+		"/home/aaditya/Documents/ml_summer18/mnist_yolo/mnist_to_jpg_and_label.py",
+		"/home/aaditya/Documents/ml_summer18/mnist_yolo",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/PIL/PaletteFile.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/PIL/Image.py",
+		"/home/aaditya/Downloads/auto-exp.py",
+		"/home/aaditya/Documents/ml_summer18/dcscn-super-resolution-master/DCSCN.py",
+		"/home/aaditya/Documents/ml_summer18/srgan-master/config.py",
+		"/home/aaditya/Documents/ml_summer18/srgan-master/main.py",
+		"/home/aaditya/Documents/ml_summer18/srgan-master/utils.py",
+		"/home/aaditya/Downloads/fastai/utils2.py",
+		"/home/aaditya/Downloads/cyclic.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/inception_v3.py",
+		"/media/aaditya/Windows/Documents and Settings/Aaditya Singh/Documents/algorithm/docdist1.py",
+		"/home/aaditya/Documents/c/cpp_str_prob.cpp",
+		"/home/aaditya/Downloads/demonstrate.py",
+		"/home/aaditya/Downloads/une_denoising_autoencoder.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/metrics.py",
+		"/media/aaditya/Windows/Documents and Settings/Aaditya Singh/Desktop/term_book.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/mobilenet.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/densenet.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/applications/vgg19.py",
+		"/home/aaditya/Documents/pytut/euler_4_palindrome_productof3D.py",
+		"/home/aaditya/Documents/pytest2/abacus/term_book.py",
+		"/home/aaditya/Documents/pytest2/neural-style-keras-master/fast_style_transfer.py",
+		"/home/aaditya/Documents/pytest2/neural-style-keras-master/utils.py",
+		"/home/aaditya/Documents/pytest2/neural-style-keras-master/iterative_style_transfer.py",
+		"/home/aaditya/Documents/pytest2/neural-style-keras-master/model.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/models.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/initializers.py",
+		"/home/aaditya/Documents/pytest2/neural-style-keras-master/layers.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/backend/common.py",
+		"/home/aaditya/miniconda2/envs/tf2/lib/python3.5/site-packages/keras/backend/__init__.py",
+		"/home/aaditya/Documents/pytest2/fast-neural-style-keras-master/nets.py",
+		"/home/aaditya/Documents/pytest2/LLP_026_MySQL_PyQt_Example-master/DB_UI_main.py",
+		"/home/aaditya/Downloads/pyqt5-master/examples/qtdemo/guide.py",
+		"/home/aaditya/Downloads/pyqt5-master/examples/qtdemo/qtdemo.py",
+		"/home/aaditya/Documents/pytest2/flappy.py",
+		"/home/aaditya/Documents/pytest2/game_template.py",
+		"/home/aaditya/Documents/pytut/try.py",
+		"/home/aaditya/Documents/pytest2/courses-master/deeplearning2/vgg16.py",
+		"/home/aaditya/Documents/pytest2/vgg16.py",
+		"/home/aaditya/Documents/pytest2/diabetes_pytorch.py",
+		"/home/aaditya/miniconda2/envs/pyt/lib/python3.6/site-packages/keras/losses.py",
+		"/home/aaditya/miniconda2/envs/pyt/lib/python3.6/site-packages/keras/metrics.py",
+		"/home/aaditya/Documents/pytut/euler_31.py",
+		"/home/aaditya/miniconda2/envs/pyt/lib/python3.6/site-packages/keras/applications/vgg16.py",
+		"/home/aaditya/Documents/pytest2/utils.py",
+		"/home/aaditya/Downloads/nvidia_noact_morespace.py",
+		"/home/aaditya/miniconda2/envs/pyt/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py",
+		"/home/aaditya/tensorflowGPU3/lib/python3.5/site-packages/keras/preprocessing/image.py",
+		"/home/aaditya/tensorflowGPU3/lib/python3.5/site-packages/keras/layers/merge.py",
+		"/home/aaditya/tensorflowGPU3/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py",
+		"/home/aaditya/tensorflowGPU3/lib/python3.5/site-packages/keras/applications/resnet50.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			";\n",
+			"__init__",
+			" \n",
+			"self",
+			"LinkedList",
+			"s2s_acc",
+			"all_recon_ip",
+			"recon_ip",
+			"fit_transform",
+			":\n",
+			"CError",
+			"import",
+			"path",
+			"\n\t",
+			"add_loss",
+			"Layer",
+			"\n    ",
+			"concept-modes",
+			"ck",
+			"do",
+			"init",
+			"load_mo",
+			"load",
+			"ckp",
+			"x",
+			"auto",
+			"Aaditya",
+			"= ",
+			"Aaditya",
+			"\";\n",
+			"\n*/",
+			"*/\n",
+			"del m",
+			"binar",
+			"init",
+			"normal",
+			"Padding",
+			"padding",
+			"dirc",
+			"limit_mem",
+			"Image",
+			"NumpyArr",
+			"Image",
+			"layer_from_config",
+			"activity_l2",
+			")))):",
+			"();\n",
+			"car",
+			"l2",
+			", activation='elu')",
+			"tensorflow.contrib.keras.python",
+			"=;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"acc",
+			"regularizers.l2",
+			")"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gauss_elimination.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ADI2.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										990,
+										991
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										118,
+										119
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ADI2.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3445,
+								3445
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3444,
+										3445
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3352,
+										3353
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ADI.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3496,
+								3496
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3495,
+										3496
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2144,
+										2145
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ADI.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include<stdio.h>",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										886,
+										887
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										117,
+										118
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "io.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1295,
+										1296
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										768,
+										769
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 24.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "ADI_input.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "ADI_output.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1469,
+								1469
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 919.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.559460383,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 141.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "ADI.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
