@@ -8,10 +8,10 @@ int main()
 {
 	char in_filename[] = "input.txt";
 	char out_filename[] = "output.txt";
-	int i, n=0;
+	int i, n = 0;
 	double inputs[50][3], outputs[50];
 	get_data(in_filename, inputs, &n);
-	
+
 	double mem[3][3];
 	double y[9];
 
@@ -24,7 +24,7 @@ int main()
 
 		//Rule step evaluation
 		apply_rules(mem, y);
-		int j=0;
+		int j = 0;
 		for (j = 0; j < 9; ++j)
 		{
 			//printf("%lf\n", y[j]);

@@ -5,34 +5,34 @@
 #define maxNodes 20
 #define maxdt 40
 
-void get_stiffness_matrix(double a[maxNodes][maxNodes],double lambda, int n)
+void get_stiffness_matrix(double a[maxNodes][maxNodes], double lambda, int n)
 {
-  int i=0,j=0;
-  for(j=0; j<n; j++){
-      for(i=0; i<n; i++){
-        a[j][i] = 0;
-      }
+  int i = 0, j = 0;
+  for (j = 0; j < n; j++)
+  {
+    for (i = 0; i < n; i++)
+    {
+      a[j][i] = 0;
+    }
   }
 
-  a[0][0] = 2*(1 + lambda);
+  a[0][0] = 2 * (1 + lambda);
   a[0][1] = -lambda;
 
+  a[n - 1][n - 2] = -lambda;
+  a[n - 1][n - 1] = 2 * (1 + lambda);
 
-  a[n-1][n-2] = -lambda;
-  a[n-1][n-1] = 2*(1 + lambda);
-
-  for(j=0; j<n; j++){
-    a[j][j-1] = -lambda;
-    a[j][j] = 2*(1 + lambda);
-    a[j][j+1] = -lambda;
+  for (j = 0; j < n; j++)
+  {
+    a[j][j - 1] = -lambda;
+    a[j][j] = 2 * (1 + lambda);
+    a[j][j + 1] = -lambda;
   }
-
-    
 }
 
 void get_mat_inverse(double a[maxNodes][maxNodes], double a_inv[maxNodes][maxNodes], int n)
 {
-  int i=0, j=0;
+  int i = 0, j = 0;
   double b[maxNodes], x[maxNodes];
   // A * A_inv = I
   for (i = 0; i < n; ++i)
@@ -52,44 +52,49 @@ void get_mat_inverse(double a[maxNodes][maxNodes], double a_inv[maxNodes][maxNod
   }
 }
 
-void initialize_temp(double T[maxdt][maxNodes][maxNodes],int n, double t[5])
+void initialize_temp(double T[maxdt][maxNodes][maxNodes], int n, double t[5])
 {
-  int i=0,j=0, k=0;
-  for(k=0; k<maxdt; k++){
-    for (i = 0; i <n+2 ; ++i)
+  int i = 0, j = 0, k = 0;
+  for (k = 0; k < maxdt; k++)
+  {
+    for (i = 0; i < n + 2; ++i)
     {
-      for (j = 0; j <n+2 ; ++j)
+      for (j = 0; j < n + 2; ++j)
       {
         T[k][i][j] = t[4];
-        if (i==0)
+        if (i == 0)
         {
           T[k][i][j] = t[1];
-        } 
-        else if (i==n+1){
+        }
+        else if (i == n + 1)
+        {
           T[k][i][j] = t[3];
         }
-        if (j==0){
+        if (j == 0)
+        {
           T[k][i][j] = t[0];
         }
-        else if (j==n+1){
+        else if (j == n + 1)
+        {
           T[k][i][j] = t[2];
         }
       }
     }
   }
-
 }
-void initialize_T0(double T0[maxNodes][maxNodes],double T[maxdt][maxNodes][maxNodes],int n, int xn)
+void initialize_T0(double T0[maxNodes][maxNodes], double T[maxdt][maxNodes][maxNodes], int n, int xn)
 { //update T0 with the nth layer of T
-int i=0,j=0;
-  for(i=0; i<xn+2; i++){
-    for(j=0; j<xn+2; j++){
+  int i = 0, j = 0;
+  for (i = 0; i < xn + 2; i++)
+  {
+    for (j = 0; j < xn + 2; j++)
+    {
       T0[i][j] = T[n][i][j];
     }
   }
 }
 
-void mat_multi_square_column(double a_inv[maxNodes][maxNodes],double b[maxNodes], int n)
+void mat_multi_square_column(double a_inv[maxNodes][maxNodes], double b[maxNodes], int n)
 { //multiply a and b having length n
   double x[maxNodes];
   for (int i = 0; i < n; ++i)
@@ -106,67 +111,73 @@ void mat_multi_square_column(double a_inv[maxNodes][maxNodes],double b[maxNodes]
   }
 }
 
-void update_T0_1(double T0[maxNodes][maxNodes],double b[maxNodes], int column,int n)
+void update_T0_1(double T0[maxNodes][maxNodes], double b[maxNodes], int column, int n)
 { //update the column of T0 with b of length n in the position ‘column’
-  int i=0;
-  for(i=1; i<=n; i++){
-    T0[i][column] = b[i-1];
+  int i = 0;
+  for (i = 1; i <= n; i++)
+  {
+    T0[i][column] = b[i - 1];
   }
 }
-void update_T0_2(double T0[maxNodes][maxNodes],double b[maxNodes], int row,int n)
+void update_T0_2(double T0[maxNodes][maxNodes], double b[maxNodes], int row, int n)
 { //update the row of T0 with b of length n in the position ‘row’
-  int j=0;
-  for(j=1; j<=n; j++){
-    T0[row][j] = b[j-1];
+  int j = 0;
+  for (j = 1; j <= n; j++)
+  {
+    T0[row][j] = b[j - 1];
   }
 }
 
-void updateT(double T[maxdt][maxNodes][maxNodes],double T0[maxNodes][maxNodes],int n,int xn)
+void updateT(double T[maxdt][maxNodes][maxNodes], double T0[maxNodes][maxNodes], int n, int xn)
 { //update nth layer of T with T0 matrix of length n
-  int i=0,j=0;
-  for(i=1; i<=xn; i++){
-    for(j=1; j<=xn; j++){
+  int i = 0, j = 0;
+  for (i = 1; i <= xn; i++)
+  {
+    for (j = 1; j <= xn; j++)
+    {
       T[n][i][j] = T0[i][j];
     }
   }
 }
-void solve_ADI(double a_inv[maxNodes][maxNodes], double T[maxdt][maxNodes][maxNodes], int xn, int tn,double lambda)
+void solve_ADI(double a_inv[maxNodes][maxNodes], double T[maxdt][maxNodes][maxNodes], int xn, int tn, double lambda)
 {
-  int i,j,t;
-  double T0[maxNodes][maxNodes]={0};
-  double b[maxNodes]={0};
-  for(t=1;t<=tn;t++)
+  int i, j, t;
+  double T0[maxNodes][maxNodes] = {0};
+  double b[maxNodes] = {0};
+  for (t = 1; t <= tn; t++)
   {
     //initializing middle time layer temp profile
-    initialize_T0(T0,T,t-1,xn);
+    initialize_T0(T0, T, t - 1, xn);
     //frame the a matrix for first direction
-    for(i=1;i<=xn;i++)
+    for (i = 1; i <= xn; i++)
     {
       //frame b matrix
-      b[0] = lambda*T0[1][i-1] + 2*(1-lambda)*T0[1][i] + lambda*T0[1][i+1] + lambda*T0[0][i];
-      for(j=1; j<xn-1; j++){
-        b[j] = lambda*T0[j+1][i-1] + 2*(1-lambda)*T0[j+1][i] + lambda*T0[j+1][i+1];
+      b[0] = lambda * T0[1][i - 1] + 2 * (1 - lambda) * T0[1][i] + lambda * T0[1][i + 1] + lambda * T0[0][i];
+      for (j = 1; j < xn - 1; j++)
+      {
+        b[j] = lambda * T0[j + 1][i - 1] + 2 * (1 - lambda) * T0[j + 1][i] + lambda * T0[j + 1][i + 1];
       }
-      b[xn-1] = lambda*T0[j+1][i-1] + 2*(1-lambda)*T0[j+1][i] + lambda*T0[j+1][i+1] + lambda*T0[xn+1][i];
+      b[xn - 1] = lambda * T0[j + 1][i - 1] + 2 * (1 - lambda) * T0[j + 1][i] + lambda * T0[j + 1][i + 1] + lambda * T0[xn + 1][i];
       //Lets solve the equations
-      mat_multi_square_column(a_inv,b,xn);
+      mat_multi_square_column(a_inv, b, xn);
       //update b values to the T0 matrix
-      update_T0_1(T0,b,i,xn);
+      update_T0_1(T0, b, i, xn);
     }
     //frame the a matrix for second direction
-    for(j=1;j<=xn;j++)
+    for (j = 1; j <= xn; j++)
     {
       //frame b matrix
-      b[0] = lambda*T0[j-1][1] + 2*(1-lambda)*T0[j][1] + lambda*T0[j+1][1] + lambda*T0[j][0];
-      for(i=1; i<xn-1; i++){
-        b[j] = lambda*T0[j-1][i+1] + 2*(1-lambda)*T0[j][i+1] + lambda*T0[j+1][i+1];
+      b[0] = lambda * T0[j - 1][1] + 2 * (1 - lambda) * T0[j][1] + lambda * T0[j + 1][1] + lambda * T0[j][0];
+      for (i = 1; i < xn - 1; i++)
+      {
+        b[j] = lambda * T0[j - 1][i + 1] + 2 * (1 - lambda) * T0[j][i + 1] + lambda * T0[j + 1][i + 1];
       }
-      b[xn-1] = lambda*T0[j-1][i+1] + 2*(1-lambda)*T0[j][i+1] + lambda*T0[j+1][i+1] + lambda*T0[j][xn+1];
+      b[xn - 1] = lambda * T0[j - 1][i + 1] + 2 * (1 - lambda) * T0[j][i + 1] + lambda * T0[j + 1][i + 1] + lambda * T0[j][xn + 1];
       //Lets solve the equations
-      mat_multi_square_column(a_inv,b,xn);
+      mat_multi_square_column(a_inv, b, xn);
       //update b values to the T0 matrix
-      update_T0_2(T0,b,j,xn);
+      update_T0_2(T0, b, j, xn);
     }
-    updateT(T,T0,t,xn);
+    updateT(T, T0, t, xn);
   }
 }
