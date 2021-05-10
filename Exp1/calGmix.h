@@ -42,7 +42,7 @@ double rk_evaluate(double coeff[6], double t, double xb)
  * @param  coeff[6]: a1, b1, a2, b2, a3, b3
  * @param  t: Temperature in K
  * @param  xb: Mole Fraction of solute in binary solution
- * @retval 
+ * @retval g_mix
  */
 double g_mix(double coeff[6], double t, double xb)
 {
